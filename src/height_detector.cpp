@@ -20,14 +20,14 @@ int main (int argc, char** argv)
 	nh.param("threshold", threshold_plane, 0.1);
 	nh.param("keep_organized", keep_organized, false);
 	nh.param("voxel_size", voxel_size, 0.05);
-	nh.param("min_inliers", min_inliers, 1000);
+	nh.param("min_inliers", min_inliers, 500);
 	nh.param("a_min", a_min,  0.95);
 	nh.param("a_max", a_max,  1.05);
 	nh.param("b_min", b_min, -0.05);
 	nh.param("b_max", b_max,  0.05);
 	nh.param("c_min", c_min, -0.05);
 	nh.param("c_max", c_max,  0.05);
-	nh.param("d_min", d_min, -1.00);
+	nh.param("d_min", d_min, -0.90);
 	nh.param("d_max", d_max, -0.40);
 	
 	// Set up SAC parameters for plane segmentation
