@@ -5,10 +5,6 @@ find_package(catkin REQUIRED COMPONENTS pcl_ros roscpp sensor_msgs)
 find_package(PCL 1.4.0 REQUIRED)
 
 catkin_package(
-#   INCLUDE_DIRS include
-#  LIBRARIES pcl_segmentation
-#  CATKIN_DEPENDS pcl_ros roscpp sensor_msgs
-#  DEPENDS system_lib
 )
 
 ## Specify additional locations of header files
